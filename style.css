@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.container {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.convite {
+    position: absolute;
+}
+
+.convite img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.convite1 {
+    z-index: 3;
+}
+
+.convite2 {
+    z-index: 2;
+}
+
+.convite3 {
+    z-index: 1;
+}
+
+.image-table {
+    border-collapse: collapse; /* Combina as bordas das células */
+    border-spacing: 0; /* Remove o espaçamento entre as células */
+}
+
+.image-table td {
+    padding: 0; /* Remove o espaçamento interno das células */
+}
